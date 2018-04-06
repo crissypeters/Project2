@@ -1,0 +1,35 @@
+.background    { background: url(https://i.imgur.com/0T0im.png);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: red; }
+.wall          { background: white;   }
+.floater       { background: #ffec9c; }
+.portal 	   { background: purple;}
+
+.actor  { position: absolute;  }
+.coin   { background: url(http://rs373.pbsrc.com/albums/oo179/Base_Oiboi/I_GoldCoin1.gif~c200); 
+		  background-size: 30px 30px;}
+.key	{ 
+		background: url(http://pixelartmaker.com/art/0098eb506bfbc6f.png);
+		background-size: 30px 30px;
+		}
+.player { background: black;}
+.speed  { background: url(https://orig00.deviantart.net/270d/f/2015/284/4/0/donut_icon__free_to_use___by_danighost-d9cs4hh.gif);
+		  background-size: 20px 20px;}
+.jump	{ background: url(http://pixelartmaker.com/art/0fc29bffe9ca6e5.png);
+		  background-size: 35px 35px;}
+.hazard { background: orange; }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player { background: red; }
+.won .player { 
+  background: grey;
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
